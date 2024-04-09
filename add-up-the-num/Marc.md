@@ -9,14 +9,15 @@ function addUp(num) {
 
 ## Strategy
 
-The problem entails finding the sum of integers from 1 to the given input number, 
-num
-using a mathematical formula known as the sum of an arithmetic series.
+This function utilizes recursion to sum integers, starting from the given input number down to 1, handling termination at 1.
 
 ## Implementation
 
-- Mathematical Formula: Utilize the formula n×(n+1)/2 to calculate the sum of numbers from 1 to the given input number num.
+- Recursive Approach: The function uses recursion to iteratively add integers from num down to 1.
+- Base Case: If num is 1, it returns 1.
+- Recursive Case: Otherwise, it adds num to the result of addUp(num - 1) which calculates the sum of integers from 1 to num - 1.
 
 ## Possible Refactors
 
-While the current solution is efficient and concise using a mathematical formula, alternative strategies like iteration or recursion are possible. However, they might add complexity without much performance improvement.
+- Iterative Approach: Consider using a loop instead of recursion for a potentially simpler implementation.
+- Optimization: Explore ways to optimize the function for better performance, especially for large input values.
