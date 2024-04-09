@@ -1,4 +1,4 @@
-# [ldq](https://www.codewars.com/users/ldq)
+
 
 ```js
 function addUp(num) {

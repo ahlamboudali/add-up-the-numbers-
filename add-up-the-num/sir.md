@@ -1,4 +1,4 @@
-# [Dannerd](https://www.codewars.com/users/Dannerd)
+
 
 ```js
 function addUp(num) {
